@@ -19,9 +19,7 @@
     <ol>
         <li>Clone the repository:
             <pre><code>git clone https://github.com/Yousefeslam214/my-fullstack-project.git
-
 cd my-fullstack-project</code></pre>
-
 </li>
 <li>Install the dependencies for both backend and frontend:
 <pre><code># Install backend dependencies
@@ -40,9 +38,7 @@ URL=your_mongodb_connection_string</code></pre>
     <ol>
         <li>Start the backend server:
             <pre><code>cd backend
-
 npm start</code></pre>
-
 </li>
 <li>Start the frontend development server:
 <pre><code>cd ../frontend
@@ -75,7 +71,6 @@ npm start</code></pre>
 │ │ └── index.js
 │ └── package.json
 └── README.md</code></pre>
-
 </pre>
     <h2 id="available-routes">Available Routes</h2>
     <h3>Backend Routes</h3>
