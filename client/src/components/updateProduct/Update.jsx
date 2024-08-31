@@ -11,6 +11,7 @@ import FormModel from "../form/FormModel";
 
 const Update = () => {
   const apiUrl = "https://server-seven-khaki.vercel.app";
+  // const apiUrl = "http://localhost:5002"
 
   const initialUser = {
     name: "",
@@ -29,7 +30,8 @@ const Update = () => {
     axios
       .get(`${apiUrl}/api/products/${id}`)
       .then((response) => {
-        setUser(response.data);
+        console.log(response.data.data.product)
+        setUser(response.data.data.product);
       })
       .catch((error) => {
         console.log(error);

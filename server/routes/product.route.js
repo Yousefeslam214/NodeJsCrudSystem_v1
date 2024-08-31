@@ -22,7 +22,7 @@ router.route('/:id')
     .get(
         // verifyToken,
         getProductById)
-    .patch(updateProduct)
+    .put(updateProduct)
     .delete(
         // verifyToken,
         // allowedTo(userRoles.ADMIN, userRoles.MANGER),

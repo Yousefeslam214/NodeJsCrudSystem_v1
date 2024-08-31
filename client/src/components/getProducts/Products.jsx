@@ -6,8 +6,8 @@ import toast, { Toaster } from "react-hot-toast";
 import { FaPen, FaTrash } from "react-icons/fa";
 
 const Products = () => {
-  // const apiUrl = "https://server-seven-khaki.vercel.app";
-  const apiUrl = "http://localhost:5002"
+  const apiUrl = "https://server-seven-khaki.vercel.app";
+  // const apiUrl = "http://localhost:5002"
 
   const [users, setUsers] = useState([]);
   const [loading, setLoading] = useState(true); // State for loading
